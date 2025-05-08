@@ -1308,4 +1308,12 @@ button > a {
   .swiper-slide[data-swiper-id="6"] p {
         bottom: 42vh;
   }
+
+  .sixth_screen p {
+    font-size: 18px;
+  }
+
+  .sixth_screen {
+    width: 80%;
+  }
 }
