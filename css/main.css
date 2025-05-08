@@ -1039,6 +1039,9 @@ button > a {
   .game_description {
     width: 80%;
   }
+  .titles {
+    width: 83%;
+  }
 }
 @media (max-width: 576px) {
   header {
@@ -1170,7 +1173,7 @@ button > a {
     top: 11% !important;
   }
   .sixth_screen {
-    width: 83%;
+    width: 80%;
   }
 }
 @media (max-width: 430px) {
