@@ -1039,9 +1039,6 @@ button > a {
   .game_description {
     width: 80%;
   }
-  .titles {
-    width: 83%;
-  }
 }
 @media (max-width: 576px) {
   header {
@@ -1117,6 +1114,7 @@ button > a {
     width: 218%;
   }
   .titles {
+    width: 83%;
     gap: 20px;
   }
   .subtitle_advantage {
