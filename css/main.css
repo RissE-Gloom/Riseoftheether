@@ -1035,6 +1035,10 @@ button > a {
   .swiper-wrapper {
     height: 90% !important;
   }
+
+  .game_description {
+    width: 80%;
+  }
 }
 @media (max-width: 576px) {
   header {
