@@ -1169,6 +1169,9 @@ button > a {
   .photos_mini {
     top: 11% !important;
   }
+  .sixth_screen {
+    width: 80%;
+  }
 }
 @media (max-width: 430px) {
   .swiper[data-swiper-id="2"] {
@@ -1311,9 +1314,5 @@ button > a {
 
   .sixth_screen p {
     font-size: 18px;
-  }
-
-  .sixth_screen {
-    width: 80%;
   }
 }
