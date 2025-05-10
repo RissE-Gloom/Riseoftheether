@@ -16,10 +16,10 @@ var swiper1 = new Swiper(".swiper-1", {
   var swiper3 = new Swiper(".swiper-3", {
 	slidesPerView: 3,
 	spaceBetween: 30,
-	// autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    //   },
+	autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 	pagination: {
 	  el: ".swiper-pagination",
 	  clickable: true,
@@ -29,10 +29,10 @@ var swiper1 = new Swiper(".swiper-1", {
   var swiper6 = new Swiper(".swiper-6", {
 	slidesPerView: 1,
 	spaceBetween: 30,
-	// autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    //   },
+	autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 	pagination: {
 	  el: ".swiper-pagination",
 	  clickable: true,
