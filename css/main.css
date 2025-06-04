@@ -488,6 +488,8 @@ body {
 }
 
 body {
+  margin: 0 auto;
+  position: relative;
   max-width: clamp(360px, 1440%, 1440px);
   width: 100%;
 }
