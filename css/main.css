@@ -484,12 +484,11 @@ body {
   background-color: #14110a;
   color: #ddd5c4;
   font-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
-  position: absolute;
+  position: relative;
 }
 
 body {
   margin: 0 auto;
-  position: relative;
   max-width: clamp(360px, 1440%, 1440px);
   width: 100%;
 }
@@ -631,7 +630,7 @@ button > a {
 .game_description {
   line-height: 1.4;
   height: 60%;
-  width: 60%;
+  width: 78%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -780,8 +779,12 @@ button > a {
   top: 55px;
   position: relative;
   margin: 80px 0;
-  width: 55%;
+  width: 100%;
   height: 600px;
+}
+
+.subtitle_charter {
+  margin: 6px;
 }
 
 .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -819,7 +822,7 @@ button > a {
   width: 10px;
   height: 10px;
   position: relative;
-  right: 730px;
+  right: 130px;
 }
 
 .swiper-backface-hidden .swiper-slide {
@@ -828,7 +831,6 @@ button > a {
 
 .swiper[data-swiper-id="3"] {
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -848,15 +850,14 @@ button > a {
 
 .swiper-slide[data-swiper-id="3"] {
   overflow: hidden;
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .swiper-slide[data-swiper-id="3"] p {
-  position: relative;
+  position: absolute;
   z-index: 2;
-  bottom: 90px;
+  bottom: 7%;
   color: #ffffff;
   background-color: rgba(19, 10, 7, 0.768627451);
   width: 100%;
@@ -910,9 +911,59 @@ button > a {
   height: 600px;
 }
 
-.photos {
-  position: relative;
-  top: 21%;
+.slider_test {
+  height: 470px;
+}
+
+.text_p {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(19, 10, 7, 0.768627451);
+  top: 75%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+}
+
+.swiper[data-swiper-id="7"] {
+  display: none;
+}
+
+.x {
+  height: 300px;
+}
+
+.e {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background: #444;
+  top: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.seventh_screen2 {
+  height: 700px;
+  width: 90%;
+}
+
+.test_slider2 {
+  display: none;
+}
+
+.company {
+  text-align: center;
+}
+
+.slider_charters1 {
+  width: 90%;
+  height: 70%;
 }
 
 @media (max-width: 1280px) {
@@ -928,10 +979,7 @@ button > a {
     width: 35%;
   }
   .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
-    right: 680px;
-  }
-  .swiper-slide[data-swiper-id="3"] {
-    width: 110%;
+    right: 130px;
   }
 }
 @media (max-width: 1024px) {
@@ -1026,25 +1074,23 @@ button > a {
     width: 90%;
   }
   .company {
+    text-align: center;
     font-size: 25px;
   }
   .sixth_screen {
     height: 37vh;
   }
-  .swiper-slide[data-swiper-id="3"] {
-    width: 120%;
-  }
   .swiper-wrapper {
     height: 90% !important;
-  }
-
-  .game_description {
-    width: 80%;
   }
 }
 @media (max-width: 576px) {
   header {
     height: 80vh;
+  }
+  .test_slider2 {
+    display: flex;
+    flex-direction: column;
   }
   .logo svg {
     width: 120px;
@@ -1059,6 +1105,9 @@ button > a {
     height: auto;
   }
   .swiper[data-swiper-id="6"] {
+    display: flex;
+  }
+  .swiper[data-swiper-id="7"] {
     display: flex;
   }
   .swiper[data-swiper-id="1"] {
@@ -1116,7 +1165,6 @@ button > a {
     width: 218%;
   }
   .titles {
-    width: 83%;
     gap: 20px;
   }
   .subtitle_advantage {
@@ -1126,31 +1174,18 @@ button > a {
     width: 65%;
   }
   .sixth_screen {
+    width: 90%;
     height: auto;
   }
   .seventh_screen {
-    height: 38vh;
-    width: 122%;
-  }
-  .seventh_screen {
-    height: 84vh;
+    height: 100%;
     position: relative;
     overflow: hidden;
-    width: 80%;
-  }
-  .swiper-slide[data-swiper-id="6"] p {
-    position: relative;
-    z-index: 2;
-    bottom: 25vh;
-    color: #ddd5c4;
-    font-size: 25px;
-    background-color: rgba(19, 10, 7, 0.768627451);
-    width: 100%;
+    width: 70%;
   }
   .swiper[data-swiper-id="3"] {
     display: none;
   }
-  
   .swiper-slide[data-swiper-id="6"] {
     text-align: center;
     font-size: 18px;
@@ -1160,20 +1195,8 @@ button > a {
     align-items: center;
     flex-direction: column;
   }
-  .swiper-slide[data-swiper-id="6"] img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    position: relative;
-    top: 10%;
-  }
-  .photos_mini {
-    top: 11% !important;
-  }
-  .sixth_screen {
-    width: 80%;
+  .news_p {
+    font-size: 18px;
   }
 }
 @media (max-width: 430px) {
@@ -1188,20 +1211,16 @@ button > a {
   }
   .seventh_screen {
     margin: 66px 0;
-    height: 55vh;
   }
   .info_charters {
     width: auto;
     font-size: 18px;
   }
   .swiper-backface-hidden .swiper-slide {
-    gap: 8%;
+    gap: 53px;
   }
   .trailer {
     width: 88%;
-  }
-  .photos_mini {
-    top: 13% !important;
   }
 }
 @media (max-width: 414px) {
@@ -1243,7 +1262,7 @@ button > a {
     margin: 140px 0;
   }
   .sixth_screen p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .bg_fs {
     height: 815px;
@@ -1266,7 +1285,6 @@ button > a {
     gap: 70px;
   }
   .seventh_screen {
-    height: 70vh;
     position: relative;
     overflow: hidden;
     width: 89%;
@@ -1300,19 +1318,5 @@ button > a {
   }
   .swiper-wrapper {
     height: 73% !important;
-  }
-  .swiper-slide[data-swiper-id="6"] img {
-    top: 19%;
-  }
-  .photos_mini {
-    top: 29% !important;
-  }
-
-  .swiper-slide[data-swiper-id="6"] p {
-        bottom: 42vh;
-  }
-
-  .sixth_screen p {
-    font-size: 18px;
   }
 }
