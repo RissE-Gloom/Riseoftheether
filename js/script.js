@@ -26,18 +26,31 @@ var swiper1 = new Swiper(".swiper-1", {
 	},
   });
 
-  var swiper6 = new Swiper(".swiper-6", {
-	slidesPerView: 1,
-	spaceBetween: 30,
-	autoplay: {
+ //  var swiper6 = new Swiper(".swiper-6", {
+	// slidesPerView: 1,
+	// spaceBetween: 30,
+	// autoplay: {
+ //        delay: 2500,
+ //        disableOnInteraction: false,
+ //      },
+	// pagination: {
+	//   el: ".swiper-pagination",
+	//   clickable: true,
+	// },
+ //  });
+
+var swiper7 = new Swiper(".swiper-7", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+	  autoplay: {
         delay: 2500,
         disableOnInteraction: false,
       },
-	pagination: {
-	  el: ".swiper-pagination",
-	  clickable: true,
-	},
-  });
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 
   var swiper4 = new Swiper(".swiper-4", {
 	pagination: {
