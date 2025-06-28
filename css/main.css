@@ -1140,6 +1140,7 @@ button > a {
     display: none;
   }
   .info_charters {
+    height: 50%;
     padding: 0 25px;
     background: rgba(68, 64, 55, 0.8);
     bottom: 257px;
@@ -1213,6 +1214,7 @@ button > a {
     margin: 66px 0;
   }
   .info_charters {
+    height: 60%;
     width: auto;
     font-size: 18px;
   }
@@ -1278,6 +1280,7 @@ button > a {
     height: auto;
   }
   .info_charters {
+    height: 72%;
     font-size: 18px;
     width: auto;
   }
