@@ -343,7 +343,7 @@ header {
 }
 
 .image_bg img {
-  /* Стиль для картинки */
+  zoom: 70%;
   width: auto;
   height: auto;
   min-width: 100%; /*  Минимальная ширина 100% блока  */
